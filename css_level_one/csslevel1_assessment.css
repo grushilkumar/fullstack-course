@@ -1,0 +1,45 @@
+body{
+  background-color: #b0e0e6;
+}
+
+h1{
+  border: 1px solid black;
+}
+
+h1+p{
+  background-color: #fffca5;
+}
+
+.purple{
+  color: purple;
+}
+
+li[class='purple']{
+  color: purple;
+  text-decoration: overline;
+}
+
+#red {
+  color: red;
+}
+
+textarea[name='gray']{
+  border: 5px solid gray;
+}
+
+input[name ='a']{
+  border: 2px solid red;
+}
+
+.feedback{
+  background-color: blue;
+  border: 4px dashed yellow;
+}
+
+p[class="ques"]{
+  background-color: #fffca5;
+}
+
+a:visited{
+  color: blue;
+}

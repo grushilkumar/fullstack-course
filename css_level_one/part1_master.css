@@ -1,0 +1,20 @@
+body{
+  background: url(https://cdn.mos.cms.futurecdn.net/EXGvXuHoNrAwt8TJBxZUwE-1200-80.jpg);
+  background-repeat: repeat;
+}
+
+div{
+  background-color: red;
+  border-color: blue;
+  border-width: 5px;
+  border-style: groove;
+  padding: 3px;
+}
+
+p{
+  color: yellow;
+}
+
+span{
+  background-color: green;
+}

@@ -1,0 +1,35 @@
+h2{
+  font-family: 'Monoton', cursive;
+  text-align: center;
+}
+
+table{
+  margin: auto;
+}
+
+td[id=a]{
+  background-color: #3d5a80;
+  padding: 120px 60px;
+  border: 3px solid white;
+}
+
+td[id=b]{
+  background-color: #98c1d9;
+  padding: 120px 60px;
+  border: 3px solid white;
+}
+td[id=c]{
+  background-color: #e0fbfc;
+  padding: 120px 60px;
+  border: 3px solid white;
+}
+td[id=d]{
+  background-color: #ee6c4d;
+  padding: 120px 60px;
+  border: 3px solid white;
+}
+td[id=e]{
+  background-color: #293241;
+  padding: 120px 60px;
+  border: 3px solid white;
+}
