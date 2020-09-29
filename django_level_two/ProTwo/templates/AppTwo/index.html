@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load static%}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Templates challenge</title>
+      <link rel="stylesheet" href="{% static 'css/mystyle.css' %}">
+  </head>
+  <body>
+    <h1>hi welcome to django level 2</h1>
+    <h2>here are your names records</h2>
+    <div class="djangtwo">
+      {% if names_records%}
+      <table>
+        <thead>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+        </thead>
+
+        {% for names in names_records %}
+        <tr>
+          <td>{{ names.firstname }}</td>
+          <td>{{ names.lastname }}</td>
+          <td>{{ names.email }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+      {% else %}
+        <p>no names records found </p>
+      {% endif %}
+
+    </div>
+    <button type="button" name="button">
+      <a href="/AppTwo">click me</a>
+    </button>
+    {{include_me}}
+  </body>
+</html>
